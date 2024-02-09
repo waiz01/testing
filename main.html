@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Login Form</title>
+    <title>Addition Calculator</title>
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form action="#" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+    <div>
+        <h2>Enter two numbers to find their sum:</h2>
+        <form action="add.php" method="post">
+            <label for="x">X:</label>
+            <input type="text" id="x" name="x" required>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <label for="y">Y:</label>
+            <input type="text" id="y" name="y" required>
 
-            <button type="submit">Login</button>
+            <button type="submit">Calculate Sum</button>
         </form>
     </div>
 </body>
